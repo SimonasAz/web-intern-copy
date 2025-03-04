@@ -4,7 +4,7 @@ services:
     container_name: BITE-php-task
     volumes:
       - ./src:/var/www/html
-      - ./data:/var/www/data
+      - ./data:/var/www/html/data
     ports:
       - "8080:80"
     environment:
